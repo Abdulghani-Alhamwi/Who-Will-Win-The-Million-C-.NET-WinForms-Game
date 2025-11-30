@@ -1,0 +1,163 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\My Projects\\Who Will Win The Million_Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCA65AE-D6E9-4422-9A88-214F63E6EA77}|Who Will Win The Million_Game.csproj|D:\\My Projects\\Who Will Win The Million_Game\\screens\\frmmainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3CCA65AE-D6E9-4422-9A88-214F63E6EA77}|Who Will Win The Million_Game.csproj|solutionrelative:screens\\frmmainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCA65AE-D6E9-4422-9A88-214F63E6EA77}|Who Will Win The Million_Game.csproj|d:\\my projects\\who will win the million_game\\screens\\frmmainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CCA65AE-D6E9-4422-9A88-214F63E6EA77}|Who Will Win The Million_Game.csproj|solutionrelative:screens\\frmmainscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCA65AE-D6E9-4422-9A88-214F63E6EA77}|Who Will Win The Million_Game.csproj|D:\\My Projects\\Who Will Win The Million_Game\\screens\\frmintrolifecycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CCA65AE-D6E9-4422-9A88-214F63E6EA77}|Who Will Win The Million_Game.csproj|solutionrelative:screens\\frmintrolifecycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCA65AE-D6E9-4422-9A88-214F63E6EA77}|Who Will Win The Million_Game.csproj|D:\\My Projects\\Who Will Win The Million_Game\\screens\\frmbalancecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CCA65AE-D6E9-4422-9A88-214F63E6EA77}|Who Will Win The Million_Game.csproj|solutionrelative:screens\\frmbalancecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCA65AE-D6E9-4422-9A88-214F63E6EA77}|Who Will Win The Million_Game.csproj|D:\\My Projects\\Who Will Win The Million_Game\\screens\\frmbalancecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3CCA65AE-D6E9-4422-9A88-214F63E6EA77}|Who Will Win The Million_Game.csproj|solutionrelative:screens\\frmbalancecard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCA65AE-D6E9-4422-9A88-214F63E6EA77}|Who Will Win The Million_Game.csproj|D:\\My Projects\\Who Will Win The Million_Game\\lib\\clslib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CCA65AE-D6E9-4422-9A88-214F63E6EA77}|Who Will Win The Million_Game.csproj|solutionrelative:lib\\clslib.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCA65AE-D6E9-4422-9A88-214F63E6EA77}|Who Will Win The Million_Game.csproj|D:\\My Projects\\Who Will Win The Million_Game\\screens\\frmintrolifecycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{3CCA65AE-D6E9-4422-9A88-214F63E6EA77}|Who Will Win The Million_Game.csproj|solutionrelative:screens\\frmintrolifecycle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCA65AE-D6E9-4422-9A88-214F63E6EA77}|Who Will Win The Million_Game.csproj|D:\\My Projects\\Who Will Win The Million_Game\\clsgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CCA65AE-D6E9-4422-9A88-214F63E6EA77}|Who Will Win The Million_Game.csproj|solutionrelative:clsgame.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:3:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:4:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmBalanceCard.cs",
+              "DocumentMoniker": "D:\\My Projects\\Who Will Win The Million_Game\\Screens\\frmBalanceCard.cs",
+              "RelativeDocumentMoniker": "Screens\\frmBalanceCard.cs",
+              "ToolTip": "D:\\My Projects\\Who Will Win The Million_Game\\Screens\\frmBalanceCard.cs",
+              "RelativeToolTip": "Screens\\frmBalanceCard.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAADgvxkAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T22:32:16.589Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmIntroLifeCycle.cs",
+              "DocumentMoniker": "D:\\My Projects\\Who Will Win The Million_Game\\Screens\\frmIntroLifeCycle.cs",
+              "RelativeDocumentMoniker": "Screens\\frmIntroLifeCycle.cs",
+              "ToolTip": "D:\\My Projects\\Who Will Win The Million_Game\\Screens\\frmIntroLifeCycle.cs",
+              "RelativeToolTip": "Screens\\frmIntroLifeCycle.cs",
+              "ViewState": "AgIAACwAAAAAAAAAAAAWwDoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T22:26:59.643Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmBalanceCard.cs [Design]",
+              "DocumentMoniker": "D:\\My Projects\\Who Will Win The Million_Game\\Screens\\frmBalanceCard.cs",
+              "RelativeDocumentMoniker": "Screens\\frmBalanceCard.cs",
+              "ToolTip": "D:\\My Projects\\Who Will Win The Million_Game\\Screens\\frmBalanceCard.cs [Design]",
+              "RelativeToolTip": "Screens\\frmBalanceCard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T22:23:46.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "clsGame.cs",
+              "DocumentMoniker": "D:\\My Projects\\Who Will Win The Million_Game\\clsGame.cs",
+              "RelativeDocumentMoniker": "clsGame.cs",
+              "ToolTip": "D:\\My Projects\\Who Will Win The Million_Game\\clsGame.cs",
+              "RelativeToolTip": "clsGame.cs",
+              "ViewState": "AgIAAHgAAAAAAAAAAAAlwIkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T21:44:58.744Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmMainScreen.cs",
+              "DocumentMoniker": "D:\\My Projects\\Who Will Win The Million_Game\\Screens\\frmMainScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\frmMainScreen.cs",
+              "ToolTip": "D:\\My Projects\\Who Will Win The Million_Game\\Screens\\frmMainScreen.cs",
+              "RelativeToolTip": "Screens\\frmMainScreen.cs",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAMwFwAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T21:40:43.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmMainScreen.cs [Design]",
+              "DocumentMoniker": "D:\\My Projects\\Who Will Win The Million_Game\\Screens\\frmMainScreen.cs",
+              "RelativeDocumentMoniker": "Screens\\frmMainScreen.cs",
+              "ToolTip": "D:\\My Projects\\Who Will Win The Million_Game\\Screens\\frmMainScreen.cs [Design]",
+              "RelativeToolTip": "Screens\\frmMainScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T21:40:39.123Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "clsLib.cs",
+              "DocumentMoniker": "D:\\My Projects\\Who Will Win The Million_Game\\Lib\\clsLib.cs",
+              "RelativeDocumentMoniker": "Lib\\clsLib.cs",
+              "ToolTip": "D:\\My Projects\\Who Will Win The Million_Game\\Lib\\clsLib.cs",
+              "RelativeToolTip": "Lib\\clsLib.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCoAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T21:33:16.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmIntroLifeCycle.cs [Design]",
+              "DocumentMoniker": "D:\\My Projects\\Who Will Win The Million_Game\\Screens\\frmIntroLifeCycle.cs",
+              "RelativeDocumentMoniker": "Screens\\frmIntroLifeCycle.cs",
+              "ToolTip": "D:\\My Projects\\Who Will Win The Million_Game\\Screens\\frmIntroLifeCycle.cs [Design]",
+              "RelativeToolTip": "Screens\\frmIntroLifeCycle.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-29T10:25:32.435Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+D:\My Projects\Who Will Win The Million_Game\bin\Debug\Who Will Win The Million_Game.exe.config
+D:\My Projects\Who Will Win The Million_Game\bin\Debug\Who Will Win The Million_Game.exe
+D:\My Projects\Who Will Win The Million_Game\bin\Debug\Who Will Win The Million_Game.pdb
+D:\My Projects\Who Will Win The Million_Game\obj\Debug\Who Will Win The Million_Game.csproj.AssemblyReference.cache
+D:\My Projects\Who Will Win The Million_Game\obj\Debug\Who_Will_Win_The_Million_Game.frmIntroLifeCycle.resources
+D:\My Projects\Who Will Win The Million_Game\obj\Debug\Who_Will_Win_The_Million_Game.Properties.Resources.resources
+D:\My Projects\Who Will Win The Million_Game\obj\Debug\Who Will Win The Million_Game.csproj.GenerateResource.cache
+D:\My Projects\Who Will Win The Million_Game\obj\Debug\Who Will Win The Million_Game.csproj.CoreCompileInputs.cache
+D:\My Projects\Who Will Win The Million_Game\obj\Debug\Who Will Win The Million_Game.exe
+D:\My Projects\Who Will Win The Million_Game\obj\Debug\Who Will Win The Million_Game.pdb
+D:\My Projects\Who Will Win The Million_Game\obj\Debug\Who Will Win The Million_Game.exe.config
+D:\My Projects\Who Will Win The Million_Game\obj\Debug\Who_Will_Win_The_Million_Game.frmMainScreen.resources
+D:\My Projects\Who Will Win The Million_Game\obj\Debug\Who_Will_Win_The_Million_Game.Screens.frmBalanceCard.resources
