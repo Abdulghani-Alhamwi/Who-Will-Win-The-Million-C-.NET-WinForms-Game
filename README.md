@@ -68,7 +68,7 @@ The project demonstrates advanced **UI/UX design**, clean architectural patterns
 - **System.IO** (File reading/writing)  
 - **Embedded Resources** (audio + UI assets)
 
----
-
-## 📁 Project Structure
-
+## 🚀 **How to Run**
+- **Clone repo**
+- **Open .sln file in Visual Studio**
+- **Run the project (no setup needed)**
