@@ -52,7 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="clsGame.cs" />
+    <Compile Include="Core\clsGame.cs" />
     <Compile Include="Lib\clsLib.cs" />
     <Compile Include="Screens\frmBalanceCard.cs">
       <SubType>Form</SubType>

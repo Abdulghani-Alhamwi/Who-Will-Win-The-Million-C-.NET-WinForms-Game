@@ -14,7 +14,7 @@ namespace Who_Will_Win_The_Million_Game
         {
             InitializeComponent();
             frm1 = frmLifeCycle;
-            clsLib.ChangeFormProperties(this, 1496, 1022);
+            clsLib.ChangeFormProperties(this, Convert.ToInt16(this.Width), Convert.ToInt16(this.Height));
         }
 
         private Form frm1;

@@ -18,7 +18,7 @@ namespace Who_Will_Win_The_Million_Game.Screens
             InitializeComponent();
             lblTitle.Text = Title;
             lblBalance.Text = Balance;
-            clsLib.ChangeFormProperties(this, 683, 396);
+            clsLib.ChangeFormProperties(this, Convert.ToInt16(this.Width), Convert.ToInt16(this.Height));
         }
 
         private void btnOK_Click(object sender, EventArgs e)

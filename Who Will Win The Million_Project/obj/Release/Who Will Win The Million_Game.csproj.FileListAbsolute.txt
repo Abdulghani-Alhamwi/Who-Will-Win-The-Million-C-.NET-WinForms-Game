@@ -13,3 +13,17 @@ D:\My Projects\Who Will Win The Million_Game\obj\Release\Who Will.5E6AC6B9.Up2Da
 D:\My Projects\Who Will Win The Million_Game\obj\Release\Who Will Win The Million_Game.exe
 D:\My Projects\Who Will Win The Million_Game\obj\Release\Who Will Win The Million_Game.pdb
 D:\My Projects\Who Will Win The Million_Game\obj\Release\Who Will Win The Million_Game.exe.config
+D:\My Projects\Who-Will-Win-The-Million-C-.NET-WinForms-Game\Who Will Win The Million_Project\bin\Release\Who Will Win The Million_Game.exe.config
+D:\My Projects\Who-Will-Win-The-Million-C-.NET-WinForms-Game\Who Will Win The Million_Project\bin\Release\Who Will Win The Million_Game.exe
+D:\My Projects\Who-Will-Win-The-Million-C-.NET-WinForms-Game\Who Will Win The Million_Project\bin\Release\Who Will Win The Million_Game.pdb
+D:\My Projects\Who-Will-Win-The-Million-C-.NET-WinForms-Game\Who Will Win The Million_Project\bin\Release\Guna.UI2.dll
+D:\My Projects\Who-Will-Win-The-Million-C-.NET-WinForms-Game\Who Will Win The Million_Project\obj\Release\Who Will Win The Million_Game.csproj.AssemblyReference.cache
+D:\My Projects\Who-Will-Win-The-Million-C-.NET-WinForms-Game\Who Will Win The Million_Project\obj\Release\Who_Will_Win_The_Million_Game.Screens.frmBalanceCard.resources
+D:\My Projects\Who-Will-Win-The-Million-C-.NET-WinForms-Game\Who Will Win The Million_Project\obj\Release\Who_Will_Win_The_Million_Game.frmIntroLifeCycle.resources
+D:\My Projects\Who-Will-Win-The-Million-C-.NET-WinForms-Game\Who Will Win The Million_Project\obj\Release\Who_Will_Win_The_Million_Game.Properties.Resources.resources
+D:\My Projects\Who-Will-Win-The-Million-C-.NET-WinForms-Game\Who Will Win The Million_Project\obj\Release\Who_Will_Win_The_Million_Game.frmMainScreen.resources
+D:\My Projects\Who-Will-Win-The-Million-C-.NET-WinForms-Game\Who Will Win The Million_Project\obj\Release\Who Will Win The Million_Game.csproj.GenerateResource.cache
+D:\My Projects\Who-Will-Win-The-Million-C-.NET-WinForms-Game\Who Will Win The Million_Project\obj\Release\Who Will Win The Million_Game.csproj.CoreCompileInputs.cache
+D:\My Projects\Who-Will-Win-The-Million-C-.NET-WinForms-Game\Who Will Win The Million_Project\obj\Release\Who Will.5E6AC6B9.Up2Date
+D:\My Projects\Who-Will-Win-The-Million-C-.NET-WinForms-Game\Who Will Win The Million_Project\obj\Release\Who Will Win The Million_Game.exe
+D:\My Projects\Who-Will-Win-The-Million-C-.NET-WinForms-Game\Who Will Win The Million_Project\obj\Release\Who Will Win The Million_Game.pdb
