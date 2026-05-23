@@ -64,9 +64,11 @@
             this.soundToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.muteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
             this.groupBox1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -293,6 +295,7 @@
             // 
             // btnAnswer2
             // 
+            this.btnAnswer2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAnswer2.BackColor = System.Drawing.Color.Purple;
             this.btnAnswer2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Indigo;
             this.btnAnswer2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
@@ -329,6 +332,7 @@
             // 
             // btnAnswer4
             // 
+            this.btnAnswer4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnAnswer4.BackColor = System.Drawing.Color.Purple;
             this.btnAnswer4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAnswer4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Indigo;
@@ -348,10 +352,11 @@
             // 
             // lblQuestion
             // 
+            this.lblQuestion.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblQuestion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(181)))), ((int)(((byte)(96)))));
             this.lblQuestion.Font = new System.Drawing.Font("Tahoma", 27F, System.Drawing.FontStyle.Bold);
             this.lblQuestion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.lblQuestion.Location = new System.Drawing.Point(143, 130);
+            this.lblQuestion.Location = new System.Drawing.Point(127, 130);
             this.lblQuestion.Name = "lblQuestion";
             this.lblQuestion.Size = new System.Drawing.Size(909, 189);
             this.lblQuestion.TabIndex = 5;
@@ -359,6 +364,7 @@
             // 
             // btnSwitchQuestion
             // 
+            this.btnSwitchQuestion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btnSwitchQuestion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(77)))), ((int)(((byte)(232)))));
             this.btnSwitchQuestion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MediumPurple;
             this.btnSwitchQuestion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
@@ -376,6 +382,7 @@
             // 
             // btnLeave
             // 
+            this.btnLeave.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnLeave.BackColor = System.Drawing.Color.Maroon;
             this.btnLeave.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnLeave.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(74)))), ((int)(((byte)(78)))));
@@ -410,10 +417,11 @@
             // 
             // lblCurrentBalance
             // 
+            this.lblCurrentBalance.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblCurrentBalance.BackColor = System.Drawing.Color.Transparent;
             this.lblCurrentBalance.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold);
             this.lblCurrentBalance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(218)))), ((int)(((byte)(248)))));
-            this.lblCurrentBalance.Location = new System.Drawing.Point(401, 54);
+            this.lblCurrentBalance.Location = new System.Drawing.Point(385, 54);
             this.lblCurrentBalance.Name = "lblCurrentBalance";
             this.lblCurrentBalance.Size = new System.Drawing.Size(288, 63);
             this.lblCurrentBalance.TabIndex = 10;
@@ -422,11 +430,12 @@
             // 
             // lblCurrentBalanceMoney
             // 
+            this.lblCurrentBalanceMoney.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblCurrentBalanceMoney.AutoSize = true;
             this.lblCurrentBalanceMoney.BackColor = System.Drawing.Color.Transparent;
             this.lblCurrentBalanceMoney.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold);
             this.lblCurrentBalanceMoney.ForeColor = System.Drawing.Color.LawnGreen;
-            this.lblCurrentBalanceMoney.Location = new System.Drawing.Point(695, 66);
+            this.lblCurrentBalanceMoney.Location = new System.Drawing.Point(679, 66);
             this.lblCurrentBalanceMoney.Name = "lblCurrentBalanceMoney";
             this.lblCurrentBalanceMoney.Size = new System.Drawing.Size(66, 39);
             this.lblCurrentBalanceMoney.TabIndex = 11;
@@ -499,7 +508,7 @@
             this.muteToolStripMenuItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.muteToolStripMenuItem.Font = new System.Drawing.Font("Tahoma", 20F, System.Drawing.FontStyle.Bold);
             this.muteToolStripMenuItem.Name = "muteToolStripMenuItem";
-            this.muteToolStripMenuItem.Size = new System.Drawing.Size(180, 38);
+            this.muteToolStripMenuItem.Size = new System.Drawing.Size(158, 38);
             this.muteToolStripMenuItem.Text = "Mute";
             this.muteToolStripMenuItem.Click += new System.EventHandler(this.muteToolStripMenuItem_Click);
             // 
@@ -518,19 +527,31 @@
             this.panel1.Size = new System.Drawing.Size(1052, 588);
             this.panel1.TabIndex = 13;
             // 
+            // panel2
+            // 
+            this.panel2.AutoScroll = true;
+            this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.Controls.Add(this.lblCurrentBalanceMoney);
+            this.panel2.Controls.Add(this.lblCurrentBalance);
+            this.panel2.Controls.Add(this.lblQuestion);
+            this.panel2.Location = new System.Drawing.Point(16, 0);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(1446, 971);
+            this.panel2.TabIndex = 14;
+            // 
             // frmMainScreen
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.BackgroundImage = global::Who_Will_Win_The_Million_Game.Properties.Resources.Gemini_Generated_Image_hn0txhn0txhn0txh;
             this.ClientSize = new System.Drawing.Size(1480, 983);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.lblCurrentBalanceMoney);
-            this.Controls.Add(this.lblCurrentBalance);
-            this.Controls.Add(this.lblQuestion);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
+            this.Controls.Add(this.panel2);
+            this.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "frmMainScreen";
@@ -542,6 +563,8 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.panel1.ResumeLayout(false);
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -583,5 +606,6 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ToolStripMenuItem soundToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem muteToolStripMenuItem;
+        private System.Windows.Forms.Panel panel2;
     }
 }

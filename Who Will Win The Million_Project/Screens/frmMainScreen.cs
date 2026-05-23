@@ -26,21 +26,22 @@ namespace Who_Will_Win_The_Million_Game
             if(CloseProgram)
             frm1.Close();
         }
-        private void _ShowAnswer(Button btn)
+        private void _ShowAnswer(Button Currentbtn, string Btn1Text, string Btn2Text, string Btn3Text)
         {
-            Game.ShowAnswer(btn,_Level);
+            Game.ShowAnswerOnButton(Currentbtn,Btn1Text,Btn2Text,Btn3Text);
         }
         private void _ShowQuestion()
         {
-            Game.ShowQuestion( lblQuestion, _Level);
+           Game.ShowQuestion( lblQuestion, _Level);
         }
         private void StartGame()
         {
             _ShowQuestion();
-            _ShowAnswer(btnAnswer1);
-            _ShowAnswer(btnAnswer2);
-            _ShowAnswer(btnAnswer3);
-            _ShowAnswer(btnAnswer4);
+            _ShowAnswer(btnAnswer1, btnAnswer2.Text, btnAnswer3.Text, btnAnswer4.Text);
+            _ShowAnswer(btnAnswer2, btnAnswer1.Text, btnAnswer3.Text, btnAnswer4.Text);
+            _ShowAnswer(btnAnswer3, btnAnswer1.Text, btnAnswer2.Text, btnAnswer4.Text);
+            _ShowAnswer(btnAnswer4, btnAnswer1.Text, btnAnswer2.Text, btnAnswer3.Text);
+            
         }
 
         private void ReSetPropertiesToConitinue()
@@ -70,7 +71,7 @@ namespace Who_Will_Win_The_Million_Game
         }
         void ChangeButtonsColor(Button Choosedbtn)
         {
-            if (Choosedbtn.Text == Game.Que.CurrentQRightAnswer)
+            if (Choosedbtn.Text == Game.lQuestions[Game.CurrentQuestionNumber].RightAnswer)
             {
                 ChangeBtnColor(Choosedbtn, Color.DarkGreen);
 
@@ -189,7 +190,7 @@ namespace Who_Will_Win_The_Million_Game
             btnSwitchQuestion.Enabled = false;
             btnRemove2Questions.Enabled = false;
             hoverOrClickSound = false ;
-            if (btn.Text == Game.Que.CurrentQRightAnswer)
+            if (btn.Text == Game.lQuestions[Game.CurrentQuestionNumber].RightAnswer)
             {
                 lblCurrentBalanceMoney.Text = AddBalanceBasedOnLevel().ToString() + " $";
                 _Level++;
@@ -246,7 +247,7 @@ namespace Who_Will_Win_The_Million_Game
         bool AnswerValidated = false;
         private void Button_Click(object sender, EventArgs e)
         {
-            if (((Button)sender).Text==Game.Que.CurrentQRightAnswer && !_Mute)
+            if (((Button)sender).Text == Game.lQuestions[Game.CurrentQuestionNumber].RightAnswer && !_Mute)
                 clsLib.RunWiningSound();
 
             else if (hoverOrClickSound && !_Mute)
@@ -304,7 +305,7 @@ namespace Who_Will_Win_The_Million_Game
             switch (RandomNum)
             {
                 case 1:
-                    if ((btnAnswer1.Text != Game.Que.CurrentQRightAnswer)&& !CheckBtnIfIsRemoved(1))
+                    if ((btnAnswer1.Text != Game.lQuestions[Game.CurrentQuestionNumber].RightAnswer) && !CheckBtnIfIsRemoved(1))
                     {
                         arrRemovedButtons[CountRemovedOptions] = 1;
                         btnAnswer1.Hide();
@@ -316,7 +317,7 @@ namespace Who_Will_Win_The_Million_Game
                     }
                     break;
                 case 2:
-                    if ((btnAnswer2.Text != Game.Que.CurrentQRightAnswer) && !CheckBtnIfIsRemoved(2))
+                    if ((btnAnswer2.Text != Game.lQuestions[Game.CurrentQuestionNumber].RightAnswer) && !CheckBtnIfIsRemoved(2))
                     {
                         arrRemovedButtons[CountRemovedOptions] = 2;
                         btnAnswer2.Hide();
@@ -329,7 +330,7 @@ namespace Who_Will_Win_The_Million_Game
                     }
                     break;
                 case 3:
-                    if ((btnAnswer3.Text != Game.Que.CurrentQRightAnswer) && !CheckBtnIfIsRemoved(3))
+                    if ((btnAnswer3.Text != Game.lQuestions[Game.CurrentQuestionNumber].RightAnswer) && !CheckBtnIfIsRemoved(3))
                     {
                         arrRemovedButtons[CountRemovedOptions] = 3;
                         btnAnswer3.Hide();
@@ -342,7 +343,7 @@ namespace Who_Will_Win_The_Million_Game
                     }
                     break;
                 case 4:
-                    if ((btnAnswer4.Text != Game.Que.CurrentQRightAnswer) && !CheckBtnIfIsRemoved(4))
+                    if ((btnAnswer4.Text != Game.lQuestions[Game.CurrentQuestionNumber].RightAnswer) && !CheckBtnIfIsRemoved(4))
                     {
                         arrRemovedButtons[CountRemovedOptions] = 4;
                         btnAnswer4.Hide();

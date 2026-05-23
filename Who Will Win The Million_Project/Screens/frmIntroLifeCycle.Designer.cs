@@ -33,10 +33,13 @@
             this.btnStart = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.guna2CircleProgressBar1 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnStart
             // 
+            this.btnStart.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnStart.BackColor = System.Drawing.Color.Purple;
             this.btnStart.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
             this.btnStart.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Indigo;
@@ -44,7 +47,7 @@
             this.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStart.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold);
             this.btnStart.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
-            this.btnStart.Location = new System.Drawing.Point(451, 715);
+            this.btnStart.Location = new System.Drawing.Point(470, 714);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(311, 79);
             this.btnStart.TabIndex = 0;
@@ -60,6 +63,7 @@
             // 
             // guna2CircleProgressBar1
             // 
+            this.guna2CircleProgressBar1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.guna2CircleProgressBar1.BackColor = System.Drawing.Color.Transparent;
             this.guna2CircleProgressBar1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.guna2CircleProgressBar1.Font = new System.Drawing.Font("Segoe UI", 12F);
@@ -75,20 +79,34 @@
             this.guna2CircleProgressBar1.TabIndex = 1;
             this.guna2CircleProgressBar1.Text = "guna2CircleProgressBar1";
             // 
+            // panel1
+            // 
+            this.panel1.AutoScroll = true;
+            this.panel1.BackColor = System.Drawing.Color.Transparent;
+            this.panel1.Controls.Add(this.btnStart);
+            this.panel1.Location = new System.Drawing.Point(18, 7);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1208, 850);
+            this.panel1.TabIndex = 2;
+            // 
             // frmIntroLifeCycle
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoScroll = true;
             this.BackgroundImage = global::Who_Will_Win_The_Million_Game.Properties.Resources.Who_Win_The_Million;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1247, 859);
-            this.Controls.Add(this.btnStart);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.guna2CircleProgressBar1);
+            this.Font = new System.Drawing.Font("Tahoma", 24F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmIntroLifeCycle";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Who Will Win The Million";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmIntroLifeCycle_FormClosed);
             this.Load += new System.EventHandler(this.frmIntroLifeCycle_Load);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -98,6 +116,7 @@
         private System.Windows.Forms.Button btnStart;
         private System.Windows.Forms.Timer timer1;
         private Guna.UI2.WinForms.Guna2CircleProgressBar guna2CircleProgressBar1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 

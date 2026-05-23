@@ -1,7 +1,8 @@
-﻿using System;
+﻿using Guna.UI2.WinForms;
+using MyLib;
+using System;
 using System.Drawing;
 using System.Windows.Forms;
-using MyLib;
 using Who_Will_Win_The_Million_Game.Screens;
 
 namespace Who_Will_Win_The_Million_Game
@@ -28,6 +29,7 @@ namespace Who_Will_Win_The_Million_Game
             clsLib.RunClickSound();
 
             btnStart.Hide();
+            guna2CircleProgressBar1.BringToFront();
             guna2CircleProgressBar1.Show();
             frmMainScreen = new frmMainScreen(this);
             timer1.Start();

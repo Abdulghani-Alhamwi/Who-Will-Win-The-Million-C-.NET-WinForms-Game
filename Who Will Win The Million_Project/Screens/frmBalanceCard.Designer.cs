@@ -37,6 +37,7 @@
             // 
             // lblTitle
             // 
+            this.lblTitle.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblTitle.Font = new System.Drawing.Font("Tahoma", 23F, System.Drawing.FontStyle.Bold);
             this.lblTitle.Location = new System.Drawing.Point(42, 19);
             this.lblTitle.Name = "lblTitle";
@@ -47,6 +48,7 @@
             // 
             // label2
             // 
+            this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Tahoma", 22F, System.Drawing.FontStyle.Bold);
             this.label2.Location = new System.Drawing.Point(99, 228);
@@ -58,6 +60,7 @@
             // 
             // lblBalance
             // 
+            this.lblBalance.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.lblBalance.AutoSize = true;
             this.lblBalance.Font = new System.Drawing.Font("Tahoma", 22F, System.Drawing.FontStyle.Bold);
             this.lblBalance.ForeColor = System.Drawing.Color.Green;
@@ -70,13 +73,14 @@
             // 
             // btnOK
             // 
+            this.btnOK.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
             this.btnOK.BackColor = System.Drawing.Color.Purple;
             this.btnOK.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MediumPurple;
             this.btnOK.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
             this.btnOK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnOK.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Bold);
             this.btnOK.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(243)))), ((int)(((byte)(243)))), ((int)(((byte)(243)))));
-            this.btnOK.Location = new System.Drawing.Point(258, 300);
+            this.btnOK.Location = new System.Drawing.Point(258, 329);
             this.btnOK.Name = "btnOK";
             this.btnOK.Size = new System.Drawing.Size(149, 45);
             this.btnOK.TabIndex = 3;
@@ -87,15 +91,17 @@
             // 
             // frmBalanceCard
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
+            this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(187)))), ((int)(((byte)(96)))));
-            this.ClientSize = new System.Drawing.Size(667, 357);
+            this.ClientSize = new System.Drawing.Size(667, 390);
             this.ControlBox = false;
             this.Controls.Add(this.btnOK);
             this.Controls.Add(this.lblBalance);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblTitle);
+            this.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmBalanceCard";
             this.ShowInTaskbar = false;
