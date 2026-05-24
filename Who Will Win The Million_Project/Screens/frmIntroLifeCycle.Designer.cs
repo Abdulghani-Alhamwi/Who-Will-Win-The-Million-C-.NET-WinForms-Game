@@ -47,7 +47,7 @@
             this.btnStart.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnStart.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold);
             this.btnStart.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
-            this.btnStart.Location = new System.Drawing.Point(470, 714);
+            this.btnStart.Location = new System.Drawing.Point(394, 714);
             this.btnStart.Name = "btnStart";
             this.btnStart.Size = new System.Drawing.Size(311, 79);
             this.btnStart.TabIndex = 0;
@@ -69,7 +69,7 @@
             this.guna2CircleProgressBar1.Font = new System.Drawing.Font("Segoe UI", 12F);
             this.guna2CircleProgressBar1.ForeColor = System.Drawing.Color.White;
             this.guna2CircleProgressBar1.GradientMode = System.Drawing.Drawing2D.LinearGradientMode.Vertical;
-            this.guna2CircleProgressBar1.Location = new System.Drawing.Point(211, 19);
+            this.guna2CircleProgressBar1.Location = new System.Drawing.Point(130, 14);
             this.guna2CircleProgressBar1.Minimum = 0;
             this.guna2CircleProgressBar1.Name = "guna2CircleProgressBar1";
             this.guna2CircleProgressBar1.ProgressColor = System.Drawing.Color.Purple;
@@ -84,9 +84,10 @@
             this.panel1.AutoScroll = true;
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.btnStart);
-            this.panel1.Location = new System.Drawing.Point(18, 7);
+            this.panel1.Controls.Add(this.guna2CircleProgressBar1);
+            this.panel1.Location = new System.Drawing.Point(1, 7);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1208, 850);
+            this.panel1.Size = new System.Drawing.Size(1058, 850);
             this.panel1.TabIndex = 2;
             // 
             // frmIntroLifeCycle
@@ -96,9 +97,8 @@
             this.AutoScroll = true;
             this.BackgroundImage = global::Who_Will_Win_The_Million_Game.Properties.Resources.Who_Win_The_Million;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1247, 859);
+            this.ClientSize = new System.Drawing.Size(1099, 864);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.guna2CircleProgressBar1);
             this.Font = new System.Drawing.Font("Tahoma", 24F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmIntroLifeCycle";

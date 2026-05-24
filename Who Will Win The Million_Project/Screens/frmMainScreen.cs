@@ -5,6 +5,8 @@ using Game;
 using System.Drawing;
 using System.Runtime.Remoting.Messaging;
 using Who_Will_Win_The_Million_Game.Screens;
+using Guna.UI2.WinForms;
+using System.Diagnostics;
 
 namespace Who_Will_Win_The_Million_Game
 {
@@ -15,6 +17,25 @@ namespace Who_Will_Win_The_Million_Game
             InitializeComponent();
             frm1 = frmLifeCycle;
             clsLib.ChangeFormProperties(this, Convert.ToInt16(this.Width), Convert.ToInt16(this.Height));
+            using (Graphics g = Graphics.FromHwnd(IntPtr.Zero)) // Get Current Windows Display DPI , we used using for Graphics because it is non managed resource and we must dispose it to deallocate it from memory and by that using automatically dipose it .
+            {
+                float dpiX = g.DpiX;
+                // dpix / 96f to have the display scale and * 100 to have it in percentage like 1.75 to be 175 .
+                if (((dpiX / 96f) * 100) > 100)
+                {
+                    this.MaximizeBox = true;
+                    this.WindowState = FormWindowState.Maximized;
+                    foreach(Control C in this.Controls)
+                    {
+                        if(C!=groupBox1 && C!= panel1 && C!=panel2)
+                        C.Size = new Size(C.Width - 70,C.Height-200);
+                    }
+
+                    
+                    
+                }
+
+            }
         }
 
         private Form frm1;
@@ -63,6 +84,8 @@ namespace Who_Will_Win_The_Million_Game
         }
         private void frmMainScreen_Load(object sender, EventArgs e)
         {
+
+         
             StartGame();
         }
         void ChangeBtnColor(Button btn,Color C)

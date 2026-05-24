@@ -356,7 +356,7 @@
             this.lblQuestion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(181)))), ((int)(((byte)(96)))));
             this.lblQuestion.Font = new System.Drawing.Font("Tahoma", 27F, System.Drawing.FontStyle.Bold);
             this.lblQuestion.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(25)))), ((int)(((byte)(25)))), ((int)(((byte)(25)))));
-            this.lblQuestion.Location = new System.Drawing.Point(127, 130);
+            this.lblQuestion.Location = new System.Drawing.Point(123, 130);
             this.lblQuestion.Name = "lblQuestion";
             this.lblQuestion.Size = new System.Drawing.Size(909, 189);
             this.lblQuestion.TabIndex = 5;
@@ -389,7 +389,7 @@
             this.btnLeave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLeave.Font = new System.Drawing.Font("Tahoma", 25F, System.Drawing.FontStyle.Bold);
             this.btnLeave.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnLeave.Location = new System.Drawing.Point(416, 493);
+            this.btnLeave.Location = new System.Drawing.Point(445, 930);
             this.btnLeave.Name = "btnLeave";
             this.btnLeave.Size = new System.Drawing.Size(264, 62);
             this.btnLeave.TabIndex = 8;
@@ -421,7 +421,7 @@
             this.lblCurrentBalance.BackColor = System.Drawing.Color.Transparent;
             this.lblCurrentBalance.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold);
             this.lblCurrentBalance.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(230)))), ((int)(((byte)(218)))), ((int)(((byte)(248)))));
-            this.lblCurrentBalance.Location = new System.Drawing.Point(385, 54);
+            this.lblCurrentBalance.Location = new System.Drawing.Point(381, 54);
             this.lblCurrentBalance.Name = "lblCurrentBalance";
             this.lblCurrentBalance.Size = new System.Drawing.Size(288, 63);
             this.lblCurrentBalance.TabIndex = 10;
@@ -435,7 +435,7 @@
             this.lblCurrentBalanceMoney.BackColor = System.Drawing.Color.Transparent;
             this.lblCurrentBalanceMoney.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold);
             this.lblCurrentBalanceMoney.ForeColor = System.Drawing.Color.LawnGreen;
-            this.lblCurrentBalanceMoney.Location = new System.Drawing.Point(679, 66);
+            this.lblCurrentBalanceMoney.Location = new System.Drawing.Point(675, 66);
             this.lblCurrentBalanceMoney.Name = "lblCurrentBalanceMoney";
             this.lblCurrentBalanceMoney.Size = new System.Drawing.Size(66, 39);
             this.lblCurrentBalanceMoney.TabIndex = 11;
@@ -451,12 +451,14 @@
             // 
             this.menuStrip1.BackColor = System.Drawing.Color.Purple;
             this.menuStrip1.Font = new System.Drawing.Font("Tahoma", 22F, System.Drawing.FontStyle.Bold);
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(28, 28);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.optionsToolStripMenuItem,
             this.soundToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(1480, 44);
+            this.menuStrip1.Padding = new System.Windows.Forms.Padding(3, 1, 0, 1);
+            this.menuStrip1.Size = new System.Drawing.Size(1455, 42);
             this.menuStrip1.TabIndex = 12;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -516,27 +518,27 @@
             // 
             this.panel1.BackColor = System.Drawing.Color.Transparent;
             this.panel1.Controls.Add(this.btnRemove2Questions);
-            this.panel1.Controls.Add(this.btnLeave);
             this.panel1.Controls.Add(this.btnSwitchQuestion);
             this.panel1.Controls.Add(this.btnAnswer4);
             this.panel1.Controls.Add(this.btnAnswer3);
             this.panel1.Controls.Add(this.btnAnswer2);
             this.panel1.Controls.Add(this.btnAnswer1);
-            this.panel1.Location = new System.Drawing.Point(61, 383);
+            this.panel1.Location = new System.Drawing.Point(61, 424);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1052, 588);
+            this.panel1.Size = new System.Drawing.Size(1052, 415);
             this.panel1.TabIndex = 13;
             // 
             // panel2
             // 
             this.panel2.AutoScroll = true;
             this.panel2.BackColor = System.Drawing.Color.Transparent;
+            this.panel2.Controls.Add(this.btnLeave);
             this.panel2.Controls.Add(this.lblCurrentBalanceMoney);
             this.panel2.Controls.Add(this.lblCurrentBalance);
             this.panel2.Controls.Add(this.lblQuestion);
             this.panel2.Location = new System.Drawing.Point(16, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1446, 971);
+            this.panel2.Size = new System.Drawing.Size(1438, 1016);
             this.panel2.TabIndex = 14;
             // 
             // frmMainScreen
@@ -546,7 +548,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.BackgroundImage = global::Who_Will_Win_The_Million_Game.Properties.Resources.Gemini_Generated_Image_hn0txhn0txhn0txh;
-            this.ClientSize = new System.Drawing.Size(1480, 983);
+            this.ClientSize = new System.Drawing.Size(1455, 1051);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
