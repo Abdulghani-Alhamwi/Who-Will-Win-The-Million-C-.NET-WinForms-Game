@@ -56,7 +56,7 @@
             this.btnRemove2Questions = new System.Windows.Forms.Button();
             this.lblCurrentBalance = new System.Windows.Forms.Label();
             this.lblCurrentBalanceMoney = new System.Windows.Forms.Label();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.tmGameCycle = new System.Windows.Forms.Timer(this.components);
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.optionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -389,7 +389,7 @@
             this.btnLeave.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLeave.Font = new System.Drawing.Font("Tahoma", 25F, System.Drawing.FontStyle.Bold);
             this.btnLeave.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.btnLeave.Location = new System.Drawing.Point(445, 930);
+            this.btnLeave.Location = new System.Drawing.Point(445, 908);
             this.btnLeave.Name = "btnLeave";
             this.btnLeave.Size = new System.Drawing.Size(264, 62);
             this.btnLeave.TabIndex = 8;
@@ -442,10 +442,10 @@
             this.lblCurrentBalanceMoney.Text = "0 $";
             this.lblCurrentBalanceMoney.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // timer1
+            // tmGameCycle
             // 
-            this.timer1.Interval = 2500;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.tmGameCycle.Interval = 2500;
+            this.tmGameCycle.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // menuStrip1
             // 
@@ -538,7 +538,7 @@
             this.panel2.Controls.Add(this.lblQuestion);
             this.panel2.Location = new System.Drawing.Point(16, 0);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1438, 1016);
+            this.panel2.Size = new System.Drawing.Size(1438, 997);
             this.panel2.TabIndex = 14;
             // 
             // frmMainScreen
@@ -548,7 +548,7 @@
             this.AutoScroll = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.BackgroundImage = global::Who_Will_Win_The_Million_Game.Properties.Resources.Gemini_Generated_Image_hn0txhn0txhn0txh;
-            this.ClientSize = new System.Drawing.Size(1455, 1051);
+            this.ClientSize = new System.Drawing.Size(1455, 1009);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
@@ -600,7 +600,7 @@
         private System.Windows.Forms.Button btnRemove2Questions;
         private System.Windows.Forms.Label lblCurrentBalance;
         private System.Windows.Forms.Label lblCurrentBalanceMoney;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer tmGameCycle;
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newGameToolStripMenuItem;

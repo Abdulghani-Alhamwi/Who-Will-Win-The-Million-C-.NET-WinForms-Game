@@ -3,10 +3,7 @@ using System.Windows.Forms;
 using MyLib;
 using Game;
 using System.Drawing;
-using System.Runtime.Remoting.Messaging;
 using Who_Will_Win_The_Million_Game.Screens;
-using Guna.UI2.WinForms;
-using System.Diagnostics;
 
 namespace Who_Will_Win_The_Million_Game
 {
@@ -30,11 +27,7 @@ namespace Who_Will_Win_The_Million_Game
                         if(C!=groupBox1 && C!= panel1 && C!=panel2)
                         C.Size = new Size(C.Width - 70,C.Height-200);
                     }
-
-                    
-                    
                 }
-
             }
         }
 
@@ -75,6 +68,8 @@ namespace Who_Will_Win_The_Million_Game
             btnSwitchQuestion.Enabled = true;
             hoverOrClickSound = true;
             btnRemove2Questions.Enabled = true;
+            IsQuestionSwitched = false;
+            btnSwitchQuestion.Enabled = true;
         }
         private void ContinueGame()
         {
@@ -84,8 +79,6 @@ namespace Who_Will_Win_The_Million_Game
         }
         private void frmMainScreen_Load(object sender, EventArgs e)
         {
-
-         
             StartGame();
         }
         void ChangeBtnColor(Button btn,Color C)
@@ -228,8 +221,8 @@ namespace Who_Will_Win_The_Million_Game
         {
             Form frmBalance = new frmBalanceCard(Title,Balance);
             frmBalance.ShowDialog();
-            Form FrmStart = new frmIntroLifeCycle(frm1);
-            //This Won't work because sometime the object reference still not disposed at the moment we are checking so the condition will be false
+            Form FrmStart = new frmIntro(frm1);
+            //This Won't work because sometime the object reference still not disposed at the moment we are checking therefore the condition will be false
             //if (frmBalance.IsDisposed)
             //    {
             //    CloseProgram = false;
@@ -262,7 +255,7 @@ namespace Who_Will_Win_The_Million_Game
             if (!Lose)
             {
                 ChangeButtonsColor(btn);
-                timer1.Start();
+                tmGameCycle.Start();
             }
            
         }
@@ -283,7 +276,7 @@ namespace Who_Will_Win_The_Million_Game
         }
         private void timer1_Tick(object sender, EventArgs e)
         {
-            timer1.Stop();
+            tmGameCycle.Stop();
             AnswerValidated = false;
             ChangeBtnColor(btnAnswer1, Color.Purple);
             ChangeBtnColor(btnAnswer2, Color.Purple);
@@ -339,6 +332,7 @@ namespace Who_Will_Win_The_Million_Game
                         remove1Option();
                     }
                     break;
+
                 case 2:
                     if ((btnAnswer2.Text != Game.lQuestions[Game.CurrentQuestionNumber].RightAnswer) && !CheckBtnIfIsRemoved(2))
                     {
@@ -349,9 +343,9 @@ namespace Who_Will_Win_The_Million_Game
                     else
                     {
                         remove1Option();
-                        
                     }
                     break;
+
                 case 3:
                     if ((btnAnswer3.Text != Game.lQuestions[Game.CurrentQuestionNumber].RightAnswer) && !CheckBtnIfIsRemoved(3))
                     {
@@ -362,9 +356,9 @@ namespace Who_Will_Win_The_Million_Game
                     else
                     {
                         remove1Option();
-                        
                     }
                     break;
+
                 case 4:
                     if ((btnAnswer4.Text != Game.lQuestions[Game.CurrentQuestionNumber].RightAnswer) && !CheckBtnIfIsRemoved(4))
                     {
@@ -375,7 +369,6 @@ namespace Who_Will_Win_The_Million_Game
                     else
                     {
                         remove1Option();
-                        
                     }
                     break;
             }
@@ -410,12 +403,18 @@ namespace Who_Will_Win_The_Million_Game
 
             Removed = true;
         }
+        bool IsQuestionSwitched = false;
         private void btnSwitchQuestion_Click(object sender, EventArgs e)
         {
             if(!_Mute)
             clsLib.RunClickSound();
 
-            ContinueGame();
+            if (!IsQuestionSwitched)
+            {
+                ContinueGame();
+                IsQuestionSwitched = true;
+                btnSwitchQuestion.Enabled = false;
+            }
         }
         private void btnLeave_Click(object sender, EventArgs e)
         {

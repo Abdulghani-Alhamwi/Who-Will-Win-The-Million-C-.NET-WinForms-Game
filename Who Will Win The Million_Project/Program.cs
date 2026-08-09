@@ -21,7 +21,7 @@ namespace Who_Will_Win_The_Million_Game
             SetProcessDPIAware();
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmIntroLifeCycle(null));
+            Application.Run(new frmIntro(null));
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace Who_Will_Win_The_Million_Game
 {
-    partial class frmIntroLifeCycle
+    partial class frmIntro
     {
         /// <summary>
         /// Required designer variable.
@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmIntroLifeCycle));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmIntro));
             this.btnStart = new System.Windows.Forms.Button();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.tmStartGame = new System.Windows.Forms.Timer(this.components);
             this.guna2CircleProgressBar1 = new Guna.UI2.WinForms.Guna2CircleProgressBar();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel1.SuspendLayout();
@@ -56,10 +56,10 @@
             this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
             this.btnStart.MouseHover += new System.EventHandler(this.btnStart_MouseHover);
             // 
-            // timer1
+            // tmStartGame
             // 
-            this.timer1.Interval = 30;
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            this.tmStartGame.Interval = 32;
+            this.tmStartGame.Tick += new System.EventHandler(this.tmStartGame_Tick);
             // 
             // guna2CircleProgressBar1
             // 
@@ -90,7 +90,7 @@
             this.panel1.Size = new System.Drawing.Size(1058, 850);
             this.panel1.TabIndex = 2;
             // 
-            // frmIntroLifeCycle
+            // frmIntro
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
@@ -101,7 +101,7 @@
             this.Controls.Add(this.panel1);
             this.Font = new System.Drawing.Font("Tahoma", 24F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "frmIntroLifeCycle";
+            this.Name = "frmIntro";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Who Will Win The Million";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.frmIntroLifeCycle_FormClosed);
@@ -114,7 +114,7 @@
         #endregion
 
         private System.Windows.Forms.Button btnStart;
-        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Timer tmStartGame;
         private Guna.UI2.WinForms.Guna2CircleProgressBar guna2CircleProgressBar1;
         private System.Windows.Forms.Panel panel1;
     }

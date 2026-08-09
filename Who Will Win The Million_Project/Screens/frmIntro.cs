@@ -10,10 +10,10 @@ using Who_Will_Win_The_Million_Game.Screens;
 
 namespace Who_Will_Win_The_Million_Game
 {
-    public partial class frmIntroLifeCycle : Form
+    public partial class frmIntro : Form
     {
         Form frmOriginalLifeCycle;
-        public frmIntroLifeCycle(Form frmOriginal) 
+        public frmIntro(Form frmOriginal) 
             {
             InitializeComponent();
             frmOriginalLifeCycle = frmOriginal;
@@ -52,19 +52,19 @@ namespace Who_Will_Win_The_Million_Game
             guna2CircleProgressBar1.BringToFront();
             guna2CircleProgressBar1.Show();
             frmMainScreen = new frmMainScreen(this);
-            timer1.Start();
+            tmStartGame.Start();
             frmMainScreen.ShowDialog();
             frmMainScreen.Enabled = false;
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void tmStartGame_Tick(object sender, EventArgs e)
         {
-            guna2CircleProgressBar1.Value+=1;
+            guna2CircleProgressBar1.Value+=2;
             if (guna2CircleProgressBar1.Value == 100)
             {
                 frmMainScreen.Enabled = true;
                 
-                timer1.Stop();
+                tmStartGame.Stop();
                 frmMainScreen.Opacity = 100.0;
                 this.Hide();
             }
