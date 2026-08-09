@@ -63,16 +63,17 @@
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.soundToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.muteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.panel2 = new System.Windows.Forms.Panel();
+            this.pbpButtonsArea = new System.Windows.Forms.Panel();
+            this.pnlResponsiveness = new System.Windows.Forms.Panel();
             this.groupBox1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            this.panel1.SuspendLayout();
-            this.panel2.SuspendLayout();
+            this.pbpButtonsArea.SuspendLayout();
+            this.pnlResponsiveness.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.groupBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(181)))), ((int)(((byte)(96)))));
             this.groupBox1.Controls.Add(this.lbl16Th);
             this.groupBox1.Controls.Add(this.lbl65Th);
@@ -121,6 +122,7 @@
             // 
             // lbl125Th
             // 
+            this.lbl125Th.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl125Th.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(196)))), ((int)(((byte)(181)))), ((int)(((byte)(96)))));
             this.lbl125Th.Font = new System.Drawing.Font("Tahoma", 20F, System.Drawing.FontStyle.Bold);
             this.lbl125Th.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(22)))), ((int)(((byte)(22)))), ((int)(((byte)(22)))));
@@ -277,6 +279,7 @@
             // 
             // btnAnswer1
             // 
+            this.btnAnswer1.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnAnswer1.BackColor = System.Drawing.Color.Purple;
             this.btnAnswer1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Indigo;
             this.btnAnswer1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
@@ -295,7 +298,7 @@
             // 
             // btnAnswer2
             // 
-            this.btnAnswer2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAnswer2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnAnswer2.BackColor = System.Drawing.Color.Purple;
             this.btnAnswer2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Indigo;
             this.btnAnswer2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
@@ -314,6 +317,7 @@
             // 
             // btnAnswer3
             // 
+            this.btnAnswer3.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnAnswer3.BackColor = System.Drawing.Color.Purple;
             this.btnAnswer3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Indigo;
             this.btnAnswer3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
@@ -332,7 +336,7 @@
             // 
             // btnAnswer4
             // 
-            this.btnAnswer4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnAnswer4.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnAnswer4.BackColor = System.Drawing.Color.Purple;
             this.btnAnswer4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnAnswer4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Indigo;
@@ -364,7 +368,7 @@
             // 
             // btnSwitchQuestion
             // 
-            this.btnSwitchQuestion.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.btnSwitchQuestion.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnSwitchQuestion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(77)))), ((int)(((byte)(232)))));
             this.btnSwitchQuestion.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MediumPurple;
             this.btnSwitchQuestion.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
@@ -382,7 +386,7 @@
             // 
             // btnLeave
             // 
-            this.btnLeave.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
+            this.btnLeave.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnLeave.BackColor = System.Drawing.Color.Maroon;
             this.btnLeave.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnLeave.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(221)))), ((int)(((byte)(74)))), ((int)(((byte)(78)))));
@@ -400,6 +404,7 @@
             // 
             // btnRemove2Questions
             // 
+            this.btnRemove2Questions.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.btnRemove2Questions.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(131)))), ((int)(((byte)(77)))), ((int)(((byte)(232)))));
             this.btnRemove2Questions.FlatAppearance.MouseDownBackColor = System.Drawing.Color.MediumPurple;
             this.btnRemove2Questions.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
@@ -514,32 +519,36 @@
             this.muteToolStripMenuItem.Text = "Mute";
             this.muteToolStripMenuItem.Click += new System.EventHandler(this.muteToolStripMenuItem_Click);
             // 
-            // panel1
+            // pbpButtonsArea
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.Controls.Add(this.btnRemove2Questions);
-            this.panel1.Controls.Add(this.btnSwitchQuestion);
-            this.panel1.Controls.Add(this.btnAnswer4);
-            this.panel1.Controls.Add(this.btnAnswer3);
-            this.panel1.Controls.Add(this.btnAnswer2);
-            this.panel1.Controls.Add(this.btnAnswer1);
-            this.panel1.Location = new System.Drawing.Point(61, 424);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1052, 415);
-            this.panel1.TabIndex = 13;
+            this.pbpButtonsArea.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pbpButtonsArea.BackColor = System.Drawing.Color.Transparent;
+            this.pbpButtonsArea.Controls.Add(this.btnRemove2Questions);
+            this.pbpButtonsArea.Controls.Add(this.btnSwitchQuestion);
+            this.pbpButtonsArea.Controls.Add(this.btnAnswer4);
+            this.pbpButtonsArea.Controls.Add(this.btnAnswer3);
+            this.pbpButtonsArea.Controls.Add(this.btnAnswer2);
+            this.pbpButtonsArea.Controls.Add(this.btnAnswer1);
+            this.pbpButtonsArea.Location = new System.Drawing.Point(61, 424);
+            this.pbpButtonsArea.Name = "pbpButtonsArea";
+            this.pbpButtonsArea.Size = new System.Drawing.Size(1052, 415);
+            this.pbpButtonsArea.TabIndex = 13;
             // 
-            // panel2
+            // pnlResponsiveness
             // 
-            this.panel2.AutoScroll = true;
-            this.panel2.BackColor = System.Drawing.Color.Transparent;
-            this.panel2.Controls.Add(this.btnLeave);
-            this.panel2.Controls.Add(this.lblCurrentBalanceMoney);
-            this.panel2.Controls.Add(this.lblCurrentBalance);
-            this.panel2.Controls.Add(this.lblQuestion);
-            this.panel2.Location = new System.Drawing.Point(16, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(1438, 997);
-            this.panel2.TabIndex = 14;
+            this.pnlResponsiveness.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnlResponsiveness.AutoScroll = true;
+            this.pnlResponsiveness.BackColor = System.Drawing.Color.Transparent;
+            this.pnlResponsiveness.Controls.Add(this.btnLeave);
+            this.pnlResponsiveness.Controls.Add(this.lblCurrentBalanceMoney);
+            this.pnlResponsiveness.Controls.Add(this.lblCurrentBalance);
+            this.pnlResponsiveness.Controls.Add(this.lblQuestion);
+            this.pnlResponsiveness.Location = new System.Drawing.Point(16, 0);
+            this.pnlResponsiveness.Name = "pnlResponsiveness";
+            this.pnlResponsiveness.Size = new System.Drawing.Size(1438, 997);
+            this.pnlResponsiveness.TabIndex = 14;
             // 
             // frmMainScreen
             // 
@@ -549,10 +558,11 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(49)))), ((int)(((byte)(49)))), ((int)(((byte)(49)))));
             this.BackgroundImage = global::Who_Will_Win_The_Million_Game.Properties.Resources.Gemini_Generated_Image_hn0txhn0txhn0txh;
             this.ClientSize = new System.Drawing.Size(1455, 1009);
-            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.pbpButtonsArea);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.pnlResponsiveness);
+            this.DoubleBuffered = true;
             this.Font = new System.Drawing.Font("Tahoma", 24F, System.Drawing.FontStyle.Bold);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
@@ -564,9 +574,9 @@
             this.groupBox1.ResumeLayout(false);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            this.panel1.ResumeLayout(false);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
+            this.pbpButtonsArea.ResumeLayout(false);
+            this.pnlResponsiveness.ResumeLayout(false);
+            this.pnlResponsiveness.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -605,9 +615,9 @@
         private System.Windows.Forms.ToolStripMenuItem optionsToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newGameToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
-        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel pbpButtonsArea;
         private System.Windows.Forms.ToolStripMenuItem soundToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem muteToolStripMenuItem;
-        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Panel pnlResponsiveness;
     }
 }

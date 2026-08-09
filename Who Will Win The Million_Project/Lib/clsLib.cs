@@ -10,7 +10,6 @@ namespace MyLib
         public static void ChangeFormProperties(Form frm, short MaxWidth,short MaxHeight)
         {
             frm.StartPosition= FormStartPosition.CenterScreen;
-            frm.MaximizeBox = false;
             frm.MinimumSize = new Size(MaxWidth, MaxHeight);
             frm.MaximumSize=new Size(MaxWidth, MaxHeight);
         }
