@@ -421,7 +421,7 @@ namespace Who_Will_Win_The_Million_Game
             clsLib.RunLoseOrLeaveSound();
 
             if (MessageBox.Show("Are you sure you want to exit?\n", "Alert", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning) == DialogResult.OK)
-                EndGame("You Left The Game , Congrats About What You Earned And Better Luck Next Time To Get The 1 Million Prize", lblCurrentBalanceMoney.Text);
+                EndGame("You Left The Game , Congrats on What You have Earned And Better Luck Next Time To Get The 1 Million Prize", lblCurrentBalanceMoney.Text);
         }
         private void Controls_MouseHover(object sender, EventArgs e)
         {
