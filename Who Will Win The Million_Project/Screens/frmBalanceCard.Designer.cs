@@ -105,7 +105,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmBalanceCard";
             this.ShowInTaskbar = false;
-            this.Text = "BalanceCard";
+            this.Text = "Balance Card";
             this.ResumeLayout(false);
             this.PerformLayout();
 
